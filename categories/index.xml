@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Hieu Personal Blog</title>
+    <title>Categories on Hieu&#39;s Blog</title>
     <link>https://hieutle2011.github.io/categories/</link>
-    <description>Recent content in Categories on Hieu Personal Blog</description>
+    <description>Recent content in Categories on Hieu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Hieu Le)</managingEditor>
-    <webMaster>youremail@domain.com (Hieu Le)</webMaster>
+    <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
+    <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
     
 	<atom:link href="https://hieutle2011.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     

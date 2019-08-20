@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hieu Personal Blog</title>
+    <title>Tags on Hieu&#39;s Blog</title>
     <link>https://hieutle2011.github.io/tags/</link>
-    <description>Recent content in Tags on Hieu Personal Blog</description>
+    <description>Recent content in Tags on Hieu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Hieu Le)</managingEditor>
-    <webMaster>youremail@domain.com (Hieu Le)</webMaster>
+    <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
+    <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
     <lastBuildDate>Tue, 20 Aug 2019 10:49:54 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>archive</title>
       <link>https://hieutle2011.github.io/tags/archive/</link>
       <pubDate>Tue, 20 Aug 2019 10:49:54 +0700</pubDate>
-      <author>youremail@domain.com (Hieu Le)</author>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/archive/</guid>
       <description></description>
     </item>
@@ -25,7 +25,7 @@
       <title>command</title>
       <link>https://hieutle2011.github.io/tags/command/</link>
       <pubDate>Tue, 20 Aug 2019 10:49:54 +0700</pubDate>
-      <author>youremail@domain.com (Hieu Le)</author>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/command/</guid>
       <description></description>
     </item>
@@ -34,7 +34,7 @@
       <title>linux</title>
       <link>https://hieutle2011.github.io/tags/linux/</link>
       <pubDate>Tue, 20 Aug 2019 10:49:54 +0700</pubDate>
-      <author>youremail@domain.com (Hieu Le)</author>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/linux/</guid>
       <description></description>
     </item>
@@ -43,7 +43,7 @@
       <title>game</title>
       <link>https://hieutle2011.github.io/tags/game/</link>
       <pubDate>Tue, 20 Aug 2019 09:49:56 +0700</pubDate>
-      <author>youremail@domain.com (Hieu Le)</author>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/game/</guid>
       <description></description>
     </item>
@@ -52,7 +52,7 @@
       <title>new</title>
       <link>https://hieutle2011.github.io/tags/new/</link>
       <pubDate>Tue, 20 Aug 2019 09:49:56 +0700</pubDate>
-      <author>youremail@domain.com (Hieu Le)</author>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/new/</guid>
       <description></description>
     </item>

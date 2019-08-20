@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Hieu Personal Blog</title>
+    <title>linux on Hieu&#39;s Blog</title>
     <link>https://hieutle2011.github.io/tags/linux/</link>
-    <description>Recent content in linux on Hieu Personal Blog</description>
+    <description>Recent content in linux on Hieu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Hieu Le)</managingEditor>
-    <webMaster>youremail@domain.com (Hieu Le)</webMaster>
+    <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
+    <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
     <lastBuildDate>Tue, 20 Aug 2019 10:49:54 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
       <title>Archive Command</title>
       <link>https://hieutle2011.github.io/post/archive-command/</link>
       <pubDate>Tue, 20 Aug 2019 10:49:54 +0700</pubDate>
-      <author>youremail@domain.com (Hieu Le)</author>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/post/archive-command/</guid>
       <description>There are many types of compress file, with each type we should have different command to interact with it. First, we find which type of file we are working with by using file command.
 $ file a.zip a.zip: Zip archive data, at least v1.0 to extract $ file b.tar b.tar: POSIX tar archive (GNU) $ file c.tar.gz c.tar.gz: gzip compressed data, last modified: Tue Aug 20 04:33:47 2019, from Unix Here are some most common types i&amp;rsquo;ve been working with recently.</description>
