@@ -22,7 +22,8 @@
 P: +66910107582 (Thailand)
 P: +84982051922 (Vietnam)
 hieuletrung102@gmail.com
-Working experience  KBTG TMA MSIG VIB Chailease  Skills    Technical skills      Programming Python, NodeJs, Golang   Markup HTML5, CSS, JavaScript   Database MySQL, MongoDB   Version Control Git, Github, Gitlab   Applications Visual Studio Code, Jira, Docker, Kubernetes   DevOps Jenkins, Ansible   OS/Environments Linux, Ubuntu       Industry Knowledge Financial Analysis, Data Analysis, Banking, Risk Management       Interpersonal Skills Problem sovling, Negotiation, Management, Team work    Education PyFML, 2017 Python Programming</description>
+Working experience KBTG, current Software Developer
+ Build NodeJs api for client app. Build front end web for operational management with ReactJs. Build EFK stack running in docker to monitor network. Build pipeline and Ansible playbook to deploy api on Jenkins server. Build a python library for running BDD test with Cucumber.  TMA, 2018 Software Developer</description>
     </item>
     
     <item>
@@ -32,10 +33,8 @@ Working experience  KBTG TMA MSIG VIB Chailease  Skills    Technical skills     
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/page/about/</guid>
       <description>My name is Hieu Trung Le. I have the following qualities:
- Learning by doing Lifelong learner  My favourite quote:
- Stay hungry, stay foolish
-&amp;mdash; Steve Jobs
- </description>
+ Learning by doing Lifelong learner  What else do you need?
+my history To be honest, I&amp;rsquo;m having some trouble remembering right now, so why don&amp;rsquo;t you just watch my movie and it will answer all your questions.</description>
     </item>
     
   </channel>
