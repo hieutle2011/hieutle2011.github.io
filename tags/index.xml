@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    <lastBuildDate>Tue, 20 Aug 2019 10:49:54 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 21:29:33 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>linux</title>
+      <link>https://hieutle2011.github.io/tags/linux/</link>
+      <pubDate>Wed, 21 Aug 2019 21:29:33 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>https://hieutle2011.github.io/tags/vim/</link>
+      <pubDate>Wed, 21 Aug 2019 21:29:33 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>certificate</title>
+      <link>https://hieutle2011.github.io/tags/certificate/</link>
+      <pubDate>Wed, 21 Aug 2019 08:20:40 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/certificate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>course</title>
+      <link>https://hieutle2011.github.io/tags/course/</link>
+      <pubDate>Wed, 21 Aug 2019 08:20:40 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/course/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>study</title>
+      <link>https://hieutle2011.github.io/tags/study/</link>
+      <pubDate>Wed, 21 Aug 2019 08:20:40 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wip</title>
+      <link>https://hieutle2011.github.io/tags/wip/</link>
+      <pubDate>Wed, 21 Aug 2019 08:20:40 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/wip/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>archive</title>
@@ -27,15 +81,6 @@
       <pubDate>Tue, 20 Aug 2019 10:49:54 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/command/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://hieutle2011.github.io/tags/linux/</link>
-      <pubDate>Tue, 20 Aug 2019 10:49:54 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/linux/</guid>
       <description></description>
     </item>
     

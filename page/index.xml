@@ -13,17 +13,19 @@
     
     
     <item>
-      <title>CV</title>
+      <title>Curriculum Vitae</title>
       <link>https://hieutle2011.github.io/page/cv/</link>
       <pubDate>Tue, 20 Aug 2019 13:28:10 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/page/cv/</guid>
-      <description>Hieu Trung Le KBTG, Thailand
+      <description>Hieu Trung Le Software Developer
+KBTG, Thailand
 P: +66910107582 (Thailand)
 P: +84982051922 (Vietnam)
 hieuletrung102@gmail.com
-Working experience KBTG, current Software Developer
- Build NodeJs api for client app. Build front end web for operational management with ReactJs. Build EFK stack running in docker to monitor network. Build pipeline and Ansible playbook to deploy api on Jenkins server. Build a python library for running BDD test with Cucumber.  TMA, 2018 Software Developer</description>
+Love to work with the cutting edge, excited to learn, a creative problem solver, resourceful in getting things done and productive working independently or collaboratively.
+Working experience KBTG, Bangkok, Thailand, current Software Developer
+ Develop NodeJs back-end for client app. Develop front-end web for operational management with ReactJs. Implement EFK stack running in docker to monitor api performance.</description>
     </item>
     
     <item>
@@ -32,9 +34,9 @@ Working experience KBTG, current Software Developer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/page/about/</guid>
-      <description>My name is Hieu Trung Le. I have the following qualities:
- Learning by doing Lifelong learner  What else do you need?
-my history To be honest, I&amp;rsquo;m having some trouble remembering right now, so why don&amp;rsquo;t you just watch my movie and it will answer all your questions.</description>
+      <description>Minimalist.
+Environmental advocate.
+Self-taught programmer and life-long learner.</description>
     </item>
     
   </channel>

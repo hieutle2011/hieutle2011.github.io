@@ -61,9 +61,9 @@
     "name" : "Hieu Le"
   },
   "headline": "Archive Command",
-  "description" : "There are many types of compress file, with each type we should have different command to interact with it. First, we find which type of file we are working with by using file command.\n$ file a.zip a.zip: Zip archive data, at least v1.0 to extract $ file b.tar b.tar: POSIX tar archive (GNU) $ file c.tar.gz c.tar.gz: gzip compressed data, last modified: Tue Aug 20 04:33:47 2019, from Unix Here are some most common types i\x26rsquo;ve been working with recently.",
+  "description" : "There are many types of compress file, with each type we should have different command to interact with it. To find which archive type we are working with, use file command.\n$ file a.zip a.zip: Zip archive data, at least v1.0 to extract $ file b.tar b.tar: POSIX tar archive (GNU) $ file c.tar.gz c.tar.gz: gzip compressed data, last modified: Tue Aug 20 04:33:47 2019, from Unix Here are some most common types i\x26rsquo;ve been working with recently.",
   "inLanguage" : "en",
-  "wordCount":  155 ,
+  "wordCount":  195 ,
   "datePublished" : "2019-08-20T10:49:54",
   "dateModified" : "2019-08-20T10:49:54",
   "image" : "https:\/\/hieutle2011.github.io\/images\/IMG_1704.png",
@@ -134,34 +134,19 @@
         
           
             <li>
-              <a title="Blog" href="/">Blog</a>
-            </li>
-          
-        
-          
-            <li class="navlinks-container">
-              <a class="navlinks-parent">Projects</a>
-              <div class="navlinks-children">
-                
-                  <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
-                
-                  <a href="/post/2017-03-05-math-sample">Math Sample</a>
-                
-                  <a href="/post/2016-03-08-code-sample">Code Sample</a>
-                
-              </div>
-            </li>
-          
-        
-          
-            <li>
-              <a title="About" href="/page/about/">About</a>
+              <a title="Blog" href="/post">Blog</a>
             </li>
           
         
           
             <li>
               <a title="CV" href="/page/cv/">CV</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
             </li>
           
         
@@ -279,7 +264,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;155&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;195&nbsp;words
   
   
   
@@ -302,7 +287,7 @@
       <article role="main" class="blog-post">
         
 
-<p>There are many types of compress file, with each type we should have different command to interact with it. First, we find which type of file we are working with by using <code>file</code> command.</p>
+<p>There are many types of compress file, with each type we should have different command to interact with it. To find which archive type we are working with, use <code>file</code> command.</p>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ file a.zip
 a.zip: Zip archive data, at least v1.0 to extract
 
@@ -313,38 +298,43 @@ $ file c.tar.gz
 c.tar.gz: gzip compressed data, last modified: Tue Aug <span class="m">20</span> <span class="m">04</span>:33:47 <span class="m">2019</span>, from Unix</code></pre></div>
 <p>Here are some most common types i&rsquo;ve been working with recently.</p>
 
-<h2 id="zip-archive-data">Zip archive data</h2>
+<h3 id="zip">Zip</h3>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Compress</span>
-$ zip a.zip file1 file2 file3
+$ zip a.zip file1 file2 file3 <span class="c1"># from individual files</span>
 
-$ zip -r a.zip dir_name
+$ zip -r a.zip dir_name       <span class="c1"># from a folder, -r = recursive</span>
 
 <span class="c1"># Decompress</span>
-unzip -d directory a.zip</code></pre></div>
-<h2 id="tar-archive-data">Tar archive data</h2>
+$ unzip -d directory a.zip</code></pre></div>
+<h3 id="tar">Tar</h3>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Compress</span>
 $ tar cvf b.tar file1 file2
 
 <span class="c1"># Decompress</span>
 $ tar xvf b.tar</code></pre></div>
-<h2 id="tar-gz-archive-data">Tar.gz archive data</h2>
+<h3 id="tar-gz">Tar.gz</h3>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Compress</span>
 $ tar czvf c.tar.gz file1 file2
 
 <span class="c1"># Decompress</span>
 $ tar xzvf c.tar.gz</code></pre></div>
-<h3 id="note">Note</h3>
+<h2 id="note">Note</h2>
 
 <ul>
 <li><strong>c</strong>  compress <code>|</code> <strong>x</strong>  extract</li>
 <li><strong>f</strong>  file</li>
 <li><strong>z</strong>  gz</li>
-<li><strong>v</strong>  verbose (optional for debug purpose)</li>
+
+<li><p><strong>v</strong>  verbose (optional for debugging)</p></li>
+
+<li><p>You can compress without declaring the extension <strong>.zip</strong>, <strong>.tar</strong>, or <strong>.tar.gz</strong>. The former will automatically put .zip into a new file, however it&rsquo;s not true for the laters. When in doubt of archive file type, use command <code>file</code>.</p></li>
 </ul>
 
-<h3 id="reference">Reference</h3>
+<h2 id="reference">Reference</h2>
 
-<p><a href="https://www.familug.org/2012/09/nen-giai-nen-bang-command-line-trong.html">familug</a></p>
+<ul>
+<li><a href="https://www.familug.org/2012/09/nen-giai-nen-bang-command-line-trong.html">familug</a></li>
+</ul>
 
 
         
@@ -435,6 +425,10 @@ $ tar xzvf c.tar.gz</code></pre></div>
               <a href="https://hieutle2011.github.io/post/first-post/" data-toggle="tooltip" data-placement="top" title="First post!">&larr; Previous Post</a>
             </li>
           
+          
+            <li class="next">
+              <a href="https://hieutle2011.github.io/post/online-cert/" data-toggle="tooltip" data-placement="top" title="Online Courses">Next Post &rarr;</a>
+            </li>
           
         </ul>
       

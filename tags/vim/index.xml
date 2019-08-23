@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Hieu&#39;s Blog</title>
-    <link>https://hieutle2011.github.io/tags/linux/</link>
-    <description>Recent content in linux on Hieu&#39;s Blog</description>
+    <title>vim on Hieu&#39;s Blog</title>
+    <link>https://hieutle2011.github.io/tags/vim/</link>
+    <description>Recent content in vim on Hieu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
     <lastBuildDate>Wed, 21 Aug 2019 21:29:33 +0700</lastBuildDate>
     
-	<atom:link href="https://hieutle2011.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hieutle2011.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,16 +21,6 @@
       <description>Well, recently i often work with docker and control config on server, i suffered a lot due to my weakness regards vim usage on linux.
 Turn out, these basic things prove significant as you&amp;rsquo;d like to pursue DevOps career.
 It would be great to improve on my vim skill by taking note down the essential of this powerful editor. Moreover, there is one tutor right in your Ubuntu terminal.</description>
-    </item>
-    
-    <item>
-      <title>Archive Command</title>
-      <link>https://hieutle2011.github.io/post/archive-command/</link>
-      <pubDate>Tue, 20 Aug 2019 10:49:54 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/post/archive-command/</guid>
-      <description>There are many types of compress file, with each type we should have different command to interact with it. To find which archive type we are working with, use file command.
-$ file a.zip a.zip: Zip archive data, at least v1.0 to extract $ file b.tar b.tar: POSIX tar archive (GNU) $ file c.tar.gz c.tar.gz: gzip compressed data, last modified: Tue Aug 20 04:33:47 2019, from Unix Here are some most common types i&amp;rsquo;ve been working with recently.</description>
     </item>
     
   </channel>

@@ -7,23 +7,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    <lastBuildDate>Tue, 20 Aug 2019 13:28:10 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 21:29:33 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CV</title>
+      <title>Vim Editor</title>
+      <link>https://hieutle2011.github.io/post/vim-editor/</link>
+      <pubDate>Wed, 21 Aug 2019 21:29:33 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/post/vim-editor/</guid>
+      <description>Well, recently i often work with docker and control config on server, i suffered a lot due to my weakness regards vim usage on linux.
+Turn out, these basic things prove significant as you&amp;rsquo;d like to pursue DevOps career.
+It would be great to improve on my vim skill by taking note down the essential of this powerful editor. Moreover, there is one tutor right in your Ubuntu terminal.</description>
+    </item>
+    
+    <item>
+      <title>Online Courses</title>
+      <link>https://hieutle2011.github.io/post/online-cert/</link>
+      <pubDate>Wed, 21 Aug 2019 08:20:40 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/post/online-cert/</guid>
+      <description> 2019  Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course), Hebrew University of Jerusalem, Current. Programming with Google Go Specialization, UCI, July 2019 Structure and Interpretation of Computer Programs, MIT, Summer 2019  2018  An Introduction to Hyperledger Technologies, LinuxFoundationX, June 2018 Docker Essentials, IBM, May 2018 IBM Blockchain Foundation Developer, IBM, Apr 2018 Learning How to Learn, McMaster University &amp;amp; University of California San Diego, Apr 2018  2017  Using Python to Access Web Data, U-M, Oct 2017 Python Data Structures, U-M, Oct 2017 Programming for Everybody (Getting Started with Python), U-M, Oct 2017 Using Databases with Python, U-M, Nov 2017  2016  Regression Modeling in Practice, Wesleyan University, Sep 2016 Data Analysis Tools, Wesleyan University, Sep 2016 Excel to MySQL Analytic Techniques for Business Specialization, Duke University, July 2016  </description>
+    </item>
+    
+    <item>
+      <title>Curriculum Vitae</title>
       <link>https://hieutle2011.github.io/page/cv/</link>
       <pubDate>Tue, 20 Aug 2019 13:28:10 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/page/cv/</guid>
-      <description>Hieu Trung Le KBTG, Thailand
+      <description>Hieu Trung Le Software Developer
+KBTG, Thailand
 P: +66910107582 (Thailand)
 P: +84982051922 (Vietnam)
 hieuletrung102@gmail.com
-Working experience KBTG, current Software Developer
- Build NodeJs api for client app. Build front end web for operational management with ReactJs. Build EFK stack running in docker to monitor network. Build pipeline and Ansible playbook to deploy api on Jenkins server. Build a python library for running BDD test with Cucumber.  TMA, 2018 Software Developer</description>
+Love to work with the cutting edge, excited to learn, a creative problem solver, resourceful in getting things done and productive working independently or collaboratively.
+Working experience KBTG, Bangkok, Thailand, current Software Developer
+ Develop NodeJs back-end for client app. Develop front-end web for operational management with ReactJs. Implement EFK stack running in docker to monitor api performance.</description>
     </item>
     
     <item>
@@ -32,7 +54,7 @@ Working experience KBTG, current Software Developer
       <pubDate>Tue, 20 Aug 2019 10:49:54 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/post/archive-command/</guid>
-      <description>There are many types of compress file, with each type we should have different command to interact with it. First, we find which type of file we are working with by using file command.
+      <description>There are many types of compress file, with each type we should have different command to interact with it. To find which archive type we are working with, use file command.
 $ file a.zip a.zip: Zip archive data, at least v1.0 to extract $ file b.tar b.tar: POSIX tar archive (GNU) $ file c.tar.gz c.tar.gz: gzip compressed data, last modified: Tue Aug 20 04:33:47 2019, from Unix Here are some most common types i&amp;rsquo;ve been working with recently.</description>
     </item>
     
@@ -51,9 +73,9 @@ $ file a.zip a.zip: Zip archive data, at least v1.0 to extract $ file b.tar b.ta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/page/about/</guid>
-      <description>My name is Hieu Trung Le. I have the following qualities:
- Learning by doing Lifelong learner  What else do you need?
-my history To be honest, I&amp;rsquo;m having some trouble remembering right now, so why don&amp;rsquo;t you just watch my movie and it will answer all your questions.</description>
+      <description>Minimalist.
+Environmental advocate.
+Self-taught programmer and life-long learner.</description>
     </item>
     
   </channel>

@@ -3,12 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hieutle2011.github.io/page/cv/</loc>
-    <lastmod>2019-08-20T13:28:10+07:00</lastmod>
+    <loc>https://hieutle2011.github.io/</loc>
+    <lastmod>2019-08-21T21:29:33+07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hieutle2011.github.io/</loc>
+    <loc>https://hieutle2011.github.io/post/</loc>
+    <lastmod>2019-08-21T21:29:33+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/linux/</loc>
+    <lastmod>2019-08-21T21:29:33+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/</loc>
+    <lastmod>2019-08-21T21:29:33+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/vim/</loc>
+    <lastmod>2019-08-21T21:29:33+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/post/vim-editor/</loc>
+    <lastmod>2019-08-21T21:29:33+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/certificate/</loc>
+    <lastmod>2019-08-21T08:20:40+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/course/</loc>
+    <lastmod>2019-08-21T08:20:40+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/post/online-cert/</loc>
+    <lastmod>2019-08-21T08:20:40+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/study/</loc>
+    <lastmod>2019-08-21T08:20:40+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/wip/</loc>
+    <lastmod>2019-08-21T08:20:40+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/page/cv/</loc>
     <lastmod>2019-08-20T13:28:10+07:00</lastmod>
   </url>
   
@@ -29,21 +81,6 @@
   
   <url>
     <loc>https://hieutle2011.github.io/tags/command/</loc>
-    <lastmod>2019-08-20T10:49:54+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/tags/linux/</loc>
-    <lastmod>2019-08-20T10:49:54+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/post/</loc>
-    <lastmod>2019-08-20T10:49:54+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/tags/</loc>
     <lastmod>2019-08-20T10:49:54+07:00</lastmod>
   </url>
   
