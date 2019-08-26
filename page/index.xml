@@ -25,7 +25,7 @@ P: +84982051922 (Vietnam)
 hieuletrung102@gmail.com
 Love to work with the cutting edge, excited to learn, a creative problem solver, resourceful in getting things done and productive working independently or collaboratively.
 Working experience KBTG, Bangkok, Thailand, current Software Developer
- Develop NodeJs back-end for client app. Develop front-end web for operational management with ReactJs. Implement EFK stack running in docker to monitor api performance.</description>
+ Develop Node.js back-end powered by Express.js for client app. Develop front-end web for operational management with React.js. Implement EFK stack to monitor api performance, by using Elastisearch to store logs which were piped by Fluentd aggregator and then visualized by Kibana.</description>
     </item>
     
     <item>

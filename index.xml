@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    <lastBuildDate>Wed, 21 Aug 2019 21:29:33 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2019 21:50:13 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nand2tetris</title>
+      <link>https://hieutle2011.github.io/post/nand/nand2tetris/</link>
+      <pubDate>Sun, 25 Aug 2019 21:50:13 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/post/nand/nand2tetris/</guid>
+      <description>Course Intro. Excited?
+  </description>
+    </item>
+    
+    <item>
+      <title>Nand2tetris Week1</title>
+      <link>https://hieutle2011.github.io/post/nand/nand2tetris-w1/</link>
+      <pubDate>Sun, 25 Aug 2019 10:01:17 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/post/nand/nand2tetris-w1/</guid>
+      <description>What i have learnt in this week.
+1.Boolean laws Any boolean function can be represented using an expression containing only NAND operations.
+Proof:  NOT(x) = (x NAND x)
+ (x AND y) = NOT(x NAND y)
+  2.Hardware description language  In computer engineering, a hardware description language is a specialized computer language used to describe the structure and behavior of electronic circuits, and most commonly, digital logic circuits.</description>
+    </item>
     
     <item>
       <title>Vim Editor</title>
@@ -24,7 +47,7 @@ It would be great to improve on my vim skill by taking note down the essential o
     </item>
     
     <item>
-      <title>Online Courses</title>
+      <title>My Online Courses</title>
       <link>https://hieutle2011.github.io/post/online-cert/</link>
       <pubDate>Wed, 21 Aug 2019 08:20:40 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
@@ -45,7 +68,7 @@ P: +84982051922 (Vietnam)
 hieuletrung102@gmail.com
 Love to work with the cutting edge, excited to learn, a creative problem solver, resourceful in getting things done and productive working independently or collaboratively.
 Working experience KBTG, Bangkok, Thailand, current Software Developer
- Develop NodeJs back-end for client app. Develop front-end web for operational management with ReactJs. Implement EFK stack running in docker to monitor api performance.</description>
+ Develop Node.js back-end powered by Express.js for client app. Develop front-end web for operational management with React.js. Implement EFK stack to monitor api performance, by using Elastisearch to store logs which were piped by Fluentd aggregator and then visualized by Kibana.</description>
     </item>
     
     <item>
