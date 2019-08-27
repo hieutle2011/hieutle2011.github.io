@@ -7,13 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    <lastBuildDate>Sun, 25 Aug 2019 21:50:13 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2019 10:32:12 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Nand2tetris</title>
+      <title>Nand2tetris Week2</title>
+      <link>https://hieutle2011.github.io/post/nand/nand2tetris-w2/</link>
+      <pubDate>Mon, 26 Aug 2019 10:32:12 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/post/nand/nand2tetris-w2/</guid>
+      <description>Counting is the religion of this generation, its hope and salvation.
+&amp;ndash; Gertrude Stein (1874–1946)
+ 1. The Theory Key concepts: Binary numbers, binary addition, the two&amp;rsquo;s complement method, half-adders, full-adders, n-bit adders, counters, Arithmetic Logic Unit (ALU), combinational logic.
+After finishing week 1 rather quick, i was eager to start week 2 and looking forward to next type of chips. The theory is presented in such an easy way that i can do arithmetic calculation base 2 and 10, negative numbers right away.</description>
+    </item>
+    
+    <item>
+      <title>Nand2tetris Intro</title>
       <link>https://hieutle2011.github.io/post/nand/nand2tetris/</link>
       <pubDate>Sun, 25 Aug 2019 21:50:13 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
