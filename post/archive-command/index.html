@@ -63,7 +63,7 @@
   "headline": "Archive Command",
   "description" : "There are many types of compress file, with each type we should have different command to interact with it. To find which archive type we are working with, use file command.\n$ file a.zip a.zip: Zip archive data, at least v1.0 to extract $ file b.tar b.tar: POSIX tar archive (GNU) $ file c.tar.gz c.tar.gz: gzip compressed data, last modified: Tue Aug 20 04:33:47 2019, from Unix Here are some most common types i\x26rsquo;ve been working with recently.",
   "inLanguage" : "en",
-  "wordCount":  195 ,
+  "wordCount":  254 ,
   "datePublished" : "2019-08-20T10:49:54",
   "dateModified" : "2019-08-20T10:49:54",
   "image" : "https:\/\/hieutle2011.github.io\/images\/IMG_1704.png",
@@ -272,10 +272,10 @@ if (!doNotTrack) {
   <i class="fas fa-calendar"></i>&nbsp;Posted on August 20, 2019
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;195&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;254&nbsp;words
   
   
   
@@ -317,6 +317,9 @@ $ zip -r a.zip dir_name       <span class="c1"># from a folder, -r = recursive</
 
 <span class="c1"># Decompress</span>
 $ unzip -d directory a.zip</code></pre></div>
+<p><em>-j</em> | <em>&ndash;junk-paths</em> =&gt; Store just the name of a saved file (junk the path), and do not store directory names. By default, zip will store the full path (relative to the current directory).</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Generate source.zip file which contains all hdl files in this folder and its sub-folder</span>
+$ find . -name <span class="s2">&#34;*.hdl&#34;</span> <span class="p">|</span> zip -j <span class="nb">source</span> -@</code></pre></div>
 <h3 id="tar">Tar</h3>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Compress</span>
 $ tar cvf b.tar file1 file2

@@ -18,10 +18,8 @@
       <pubDate>Mon, 26 Aug 2019 10:32:12 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/post/nand/nand2tetris-w2/</guid>
-      <description>Counting is the religion of this generation, its hope and salvation.
-&amp;ndash; Gertrude Stein (1874–1946)
- 1. The Theory Key concepts: Binary numbers, binary addition, the two&amp;rsquo;s complement method, half-adders, full-adders, n-bit adders, counters, Arithmetic Logic Unit (ALU), combinational logic.
-After finishing week 1 rather quick, i was eager to start week 2 and looking forward to next type of chips. The theory is presented in such an easy way that i can do arithmetic calculation base 2 and 10, negative numbers right away.</description>
+      <description>Background
+The centerpiece of the computer&amp;rsquo;s architecture is the CPU, or Central Processing Unit, and the centerpiece of the CPU is the ALU, or Arithmetic-Logic Unit. In this project you will gradually build a set of chips, culminating in the construction of the ALU chip of the Hack computer. All the chips built in this project are standard, except for the ALU itself, which differs from one computer architecture to another.</description>
     </item>
     
   </channel>

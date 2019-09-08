@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    <lastBuildDate>Mon, 26 Aug 2019 10:32:12 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2019 10:59:20 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/tags/gate/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nand2tetris Week3</title>
+      <link>https://hieutle2011.github.io/post/nand/nand2tetris-w3/</link>
+      <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/post/nand/nand2tetris-w3/</guid>
+      <description>Background
+The computer&amp;rsquo;s main memory, also called Random Access Memory, or RAM, is an addressable sequence of n-bit registers, each designed to hold an n-bit value. In this project you will gradually build a RAM unit. This involves two main issues: (i) how to use gate logic to store bits persistently, over time, and (ii) how to use gate logic to locate (&amp;ldquo;address&amp;rdquo;) the memory register on which we wish to operate.</description>
+    </item>
     
     <item>
       <title>Nand2tetris Week2</title>
@@ -18,10 +28,8 @@
       <pubDate>Mon, 26 Aug 2019 10:32:12 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/post/nand/nand2tetris-w2/</guid>
-      <description>Counting is the religion of this generation, its hope and salvation.
-&amp;ndash; Gertrude Stein (1874–1946)
- 1. The Theory Key concepts: Binary numbers, binary addition, the two&amp;rsquo;s complement method, half-adders, full-adders, n-bit adders, counters, Arithmetic Logic Unit (ALU), combinational logic.
-After finishing week 1 rather quick, i was eager to start week 2 and looking forward to next type of chips. The theory is presented in such an easy way that i can do arithmetic calculation base 2 and 10, negative numbers right away.</description>
+      <description>Background
+The centerpiece of the computer&amp;rsquo;s architecture is the CPU, or Central Processing Unit, and the centerpiece of the CPU is the ALU, or Arithmetic-Logic Unit. In this project you will gradually build a set of chips, culminating in the construction of the ALU chip of the Hack computer. All the chips built in this project are standard, except for the ALU itself, which differs from one computer architecture to another.</description>
     </item>
     
     <item>
@@ -30,11 +38,9 @@ After finishing week 1 rather quick, i was eager to start week 2 and looking for
       <pubDate>Sun, 25 Aug 2019 10:01:17 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/post/nand/nand2tetris-w1/</guid>
-      <description>What i have learnt in this week.
-1.Boolean laws Any boolean function can be represented using an expression containing only NAND operations.
-Proof:  NOT(x) = (x NAND x)
- (x AND y) = NOT(x NAND y)
-  2.Hardware description language  In computer engineering, a hardware description language is a specialized computer language used to describe the structure and behavior of electronic circuits, and most commonly, digital logic circuits.</description>
+      <description>Background
+A typical computer architecture is based on a set of elementary logic gates like And, Or, Mux, etc., as well as their bit-wise versions And16, Or16, Mux16, etc. (assuming a 16-bit machine). This project engages you in the construction of a typical set of basic logic gates. These gates form the elementary building blocks from which more complex chips will be later constructed.
+ Here is what i have learnt in this week.</description>
     </item>
     
   </channel>

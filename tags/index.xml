@@ -7,10 +7,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    <lastBuildDate>Mon, 26 Aug 2019 10:32:12 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2019 10:59:20 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>course</title>
+      <link>https://hieutle2011.github.io/tags/course/</link>
+      <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/course/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gate</title>
+      <link>https://hieutle2011.github.io/tags/gate/</link>
+      <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/gate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learn</title>
+      <link>https://hieutle2011.github.io/tags/learn/</link>
+      <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logic</title>
+      <link>https://hieutle2011.github.io/tags/logic/</link>
+      <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memory</title>
+      <link>https://hieutle2011.github.io/tags/memory/</link>
+      <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nand</title>
+      <link>https://hieutle2011.github.io/tags/nand/</link>
+      <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/nand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RAM</title>
+      <link>https://hieutle2011.github.io/tags/ram/</link>
+      <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/ram/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ALU</title>
@@ -27,51 +90,6 @@
       <pubDate>Mon, 26 Aug 2019 10:32:12 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/binary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>course</title>
-      <link>https://hieutle2011.github.io/tags/course/</link>
-      <pubDate>Mon, 26 Aug 2019 10:32:12 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/course/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gate</title>
-      <link>https://hieutle2011.github.io/tags/gate/</link>
-      <pubDate>Mon, 26 Aug 2019 10:32:12 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/gate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learn</title>
-      <link>https://hieutle2011.github.io/tags/learn/</link>
-      <pubDate>Mon, 26 Aug 2019 10:32:12 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/learn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>logic</title>
-      <link>https://hieutle2011.github.io/tags/logic/</link>
-      <pubDate>Mon, 26 Aug 2019 10:32:12 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/logic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nand</title>
-      <link>https://hieutle2011.github.io/tags/nand/</link>
-      <pubDate>Mon, 26 Aug 2019 10:32:12 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/nand/</guid>
       <description></description>
     </item>
     
