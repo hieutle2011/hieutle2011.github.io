@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>assembly on Hieu&#39;s Blog</title>
+    <link>https://hieutle2011.github.io/tags/assembly/</link>
+    <description>Recent content in assembly on Hieu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
+    <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
+    <lastBuildDate>Sun, 15 Sep 2019 16:55:58 +0700</lastBuildDate>
+    
+	<atom:link href="https://hieutle2011.github.io/tags/assembly/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nand2tetris W4</title>
+      <link>https://hieutle2011.github.io/post/nand/nand2tetris-w4/</link>
+      <pubDate>Sun, 15 Sep 2019 16:55:58 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/post/nand/nand2tetris-w4/</guid>
+      <description>Background
+Every hardware platform is designed to execute commands in a certain machine language, expressed using agreed-upon binary codes. Writing programs directly in binary code is a possible, yet unnecessary. Instead, we can write such programs using a low-level symbolic language, called assembly, and have them translated into binary code by a program called assembler.
+ Machine Language After making the gates and chips in previous 3 weeks, i had a chance to learn more about the machine language which is in binary form.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -4,28 +4,58 @@
   
   <url>
     <loc>https://hieutle2011.github.io/</loc>
-    <lastmod>2019-09-08T10:59:20+07:00</lastmod>
+    <lastmod>2019-09-15T16:55:58+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hieutle2011.github.io/post/</loc>
-    <lastmod>2019-09-08T10:59:20+07:00</lastmod>
+    <lastmod>2019-09-15T16:55:58+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hieutle2011.github.io/tags/course/</loc>
-    <lastmod>2019-09-08T10:59:20+07:00</lastmod>
+    <loc>https://hieutle2011.github.io/tags/assembly/</loc>
+    <lastmod>2019-09-15T16:55:58+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hieutle2011.github.io/tags/gate/</loc>
-    <lastmod>2019-09-08T10:59:20+07:00</lastmod>
+    <loc>https://hieutle2011.github.io/tags/course/</loc>
+    <lastmod>2019-09-15T16:55:58+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/i/o/</loc>
+    <lastmod>2019-09-15T16:55:58+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://hieutle2011.github.io/tags/learn/</loc>
+    <lastmod>2019-09-15T16:55:58+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/nand/</loc>
+    <lastmod>2019-09-15T16:55:58+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/post/nand/nand2tetris-w4/</loc>
+    <lastmod>2019-09-15T16:55:58+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/register/</loc>
+    <lastmod>2019-09-15T16:55:58+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/</loc>
+    <lastmod>2019-09-15T16:55:58+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/gate/</loc>
     <lastmod>2019-09-08T10:59:20+07:00</lastmod>
   </url>
   
@@ -40,22 +70,12 @@
   </url>
   
   <url>
-    <loc>https://hieutle2011.github.io/tags/nand/</loc>
-    <lastmod>2019-09-08T10:59:20+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hieutle2011.github.io/post/nand/nand2tetris-w3/</loc>
     <lastmod>2019-09-08T10:59:20+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://hieutle2011.github.io/tags/ram/</loc>
-    <lastmod>2019-09-08T10:59:20+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/tags/</loc>
     <lastmod>2019-09-08T10:59:20+07:00</lastmod>
   </url>
   

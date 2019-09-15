@@ -7,17 +7,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    <lastBuildDate>Sun, 08 Sep 2019 10:59:20 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2019 16:55:58 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>assembly</title>
+      <link>https://hieutle2011.github.io/tags/assembly/</link>
+      <pubDate>Sun, 15 Sep 2019 16:55:58 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/assembly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>course</title>
       <link>https://hieutle2011.github.io/tags/course/</link>
-      <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
+      <pubDate>Sun, 15 Sep 2019 16:55:58 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/course/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I/O</title>
+      <link>https://hieutle2011.github.io/tags/i/o/</link>
+      <pubDate>Sun, 15 Sep 2019 16:55:58 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/i/o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learn</title>
+      <link>https://hieutle2011.github.io/tags/learn/</link>
+      <pubDate>Sun, 15 Sep 2019 16:55:58 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nand</title>
+      <link>https://hieutle2011.github.io/tags/nand/</link>
+      <pubDate>Sun, 15 Sep 2019 16:55:58 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/nand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>register</title>
+      <link>https://hieutle2011.github.io/tags/register/</link>
+      <pubDate>Sun, 15 Sep 2019 16:55:58 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/register/</guid>
       <description></description>
     </item>
     
@@ -27,15 +72,6 @@
       <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/gate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learn</title>
-      <link>https://hieutle2011.github.io/tags/learn/</link>
-      <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/learn/</guid>
       <description></description>
     </item>
     
@@ -54,15 +90,6 @@
       <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/memory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nand</title>
-      <link>https://hieutle2011.github.io/tags/nand/</link>
-      <pubDate>Sun, 08 Sep 2019 10:59:20 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/nand/</guid>
       <description></description>
     </item>
     
