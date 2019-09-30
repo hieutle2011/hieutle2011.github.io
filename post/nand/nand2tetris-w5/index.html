@@ -61,9 +61,9 @@
     "name" : "Hieu Le"
   },
   "headline": "Nand2tetris W5",
-  "description" : "Last week, my wife came to BKK to see me and we had a wonderful short trip to Koh Lan island just 40 minutes away from Pattaya. It had been almost 2 months since we last met when i was in Vietnam back then, so that we did enjoyed our time together. Moreover, we accompanied by 2 great friends in Son and Tik and all of us laughed a lot in that sea food restaurant playing games and drinking beers.",
+  "description" : "Last week, my wife came to BKK to see me and we had a wonderful short trip to Koh Lan island just 40 minutes away from Pattaya. It had been almost 2 months since we last met when i was in Vietnam back then, so that we did enjoyed our time together. Moreover, we accompanied 2 great friends in Son and Tik and all four of us took photos, shared stories and laughed so hard in that sea food restaurant while playing Tik-guessing game and drinking beers.",
   "inLanguage" : "en",
-  "wordCount":  637 ,
+  "wordCount":  630 ,
   "datePublished" : "2019-09-29T10:26:08",
   "dateModified" : "2019-09-29T10:26:08",
   "image" : "https:\/\/hieutle2011.github.io\/images\/avatar.png",
@@ -275,7 +275,7 @@ if (!doNotTrack) {
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;3&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;637&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;630&nbsp;words
   
   
   
@@ -298,15 +298,15 @@ if (!doNotTrack) {
       <article role="main" class="blog-post">
         
 
-<p>Last week, my wife came to BKK to see me and we had a wonderful short trip to Koh Lan island just 40 minutes away from Pattaya. It had been almost 2 months since we last met when i was in Vietnam back then, so that we did enjoyed our time together. Moreover, we accompanied by 2 great friends in Son and Tik and all of us laughed a lot in that sea food restaurant playing games and drinking beers.</p>
+<p>Last week, my wife came to BKK to see me and we had a wonderful short trip to Koh Lan island just 40 minutes away from Pattaya. It had been almost 2 months since we last met when i was in Vietnam back then, so that we did enjoyed our time together. Moreover, we accompanied 2 great friends in Son and Tik and all four of us took photos, shared stories and laughed so hard in that sea food restaurant while playing Tik-guessing game and drinking beers.</p>
 
-<p>That is the reason why i was late for week 5 project until today. To be fair, this project of building a computer is most challenging since beginning of the course. I found that i am not the only one got stuck at some point building the CPU in a forum specialized to the nand2tetris. Surfing through all the related posts and reading answers did give me more insights of the CPU and kept me going through.</p>
+<p>That is the reason why i was late for week 5 project until today. To be fair, this project of building a computer is most challenging since beginning of the course. While looking up a forum specialized to the nand2tetris, it wasn&rsquo;t only me who got stuck at some point building the CPU. Surfing through all the related posts and reading answers did give me more insights of the CPU and kept me going through.</p>
 
-<p>This week material is quite overwhelm to me, 92 minutes of videos, 92 pages of slides and 29 pages of book chapter for me to work on. What all the 9s and 2s have to do are really funny i guess. Also i need to go back to previous chapter 4 (machine language) to review the logic behind jump field of C-instruction. It was huge and i would easily forget all those details after commencing the course, so that i believe these below notes will help my future me to understand what was going on.</p>
+<p>The week material is quite overwhelm with 92 minutes of videos, 92 pages of slides and 29 pages of book chapter for me to work on. What all the 9s and 2s have to do are really funny i think. Also, i need to go back to previous chapter 4 (machine language) to review the logic behind jump field of C-instruction. It was huge and i would easily forget all those details after commencing the course, surely these below notes will help my future me to understand what was going on.</p>
 
 <h3 id="computer-architecture-fundamentals">Computer architecture fundamentals</h3>
 
-<p>The chapter starts with the idea of The Stored Program Concept which was formed in 1930s. That is a computer with finite hardware platform can perform infinite number of tasks from instructions passed to it. These instructions can be combined in building block that yeild arbitrarily sophisicated programs, and these programs are not fixed with the hardware but be stored in memory just like data, called software. Such that different loaded softwares ask the hardware to perform differently.</p>
+<p>Chapter 5 starts with the idea of The Stored Program Concept which was formed in 1930s. That is a computer with finite hardware platform can perform infinite number of tasks from instructions passed to it. These instructions can be combined in building block that yeild arbitrarily sophisicated programs, and these programs are not fixed with the hardware but be stored in memory just like data, called software. Such that different loaded softwares ask the hardware to perform differently.</p>
 
 <p>As you can see from below diagram, the von Neumann machine (1945) is the practical architecture and almost all mordern computers are based on this concept.</p>
 
@@ -328,7 +328,7 @@ if (!doNotTrack) {
 <li><p><code>j</code>-bit: jump part (have to dig deep for the logic in week 4 material!)</p></li>
 </ul>
 
-<p>Because the pre-loaded ROM is provided, all hard work is to write hdl code to build the data memory and the CPU. While the data memory has 3 parts: RAM16K, Screen and Keyboard memory-mapped, which is fairly straightforward, i found CPU is a real killer. It took me hours of reading on course material and on forum for CPU, figuring out the control part of every chip, debugging on each line of the test script and finally grasp the idea of the instructor. I did ask on the forum for someone to look at my CPU code, but before receiving any feedback, i could pass the test successfully myself.</p>
+<p>Because the pre-loaded ROM is provided, all hard work is to write hdl code to build the data memory and the CPU. While the fairly straightforward data memory has 3 parts: RAM16K, Screen and Keyboard memory-mapped, i found CPU is a real killer. It took me hours of reading on course material and on forum for logic, figuring out the control part of every chip, debugging on each line of the test script and finally grasp the idea of the instructor. I did ask for help on <a href="http://nand2tetris-questions-and-answers-forum.32033.n3.nabble.com/Could-someone-have-a-look-at-my-CPU-design-td4031042.html#a4033704">the forum</a>, however, i could pass the test successfully myself before receiving any feedback.</p>
 
 <p><img src="/images/CPU.png" alt="CPU diagram" /></p>
 
@@ -345,7 +345,7 @@ if (!doNotTrack) {
 
 <li><p><a href="https://docs.wixstatic.com/ugd/44046b_552ed0898d5d491aabafd8a768a87c6f.pdf">Reading</a></p></li>
 
-<li><p>[Forum][forum]</p></li>
+<li><p><a href="http://nand2tetris-questions-and-answers-forum.32033.n3.nabble.com/Project-5-f32606.html">Forum</a></p></li>
 </ul>
 
 
