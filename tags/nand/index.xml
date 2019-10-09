@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    <lastBuildDate>Sun, 29 Sep 2019 10:26:08 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 20:23:12 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/tags/nand/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nand2tetris W6</title>
+      <link>https://hieutle2011.github.io/post/nand/nand2tetris-w6/</link>
+      <pubDate>Wed, 09 Oct 2019 20:23:12 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/post/nand/nand2tetris-w6/</guid>
+      <description>This week marks the end of building hardware parts and the beginning of the computer software hierarchy. Each computer has a binary machine language, including a number of 0&amp;rsquo;s and 1&amp;rsquo;s, and a symbolic machine language, consisting of human-friendly mnemonics. Both languages serve the same purpose and are completely equivalent.
+However, assembly language is far easier for human to write and understand. To enjoy this benefit, it is required for a assembler to translate the symbols and labels into binary machine code.</description>
+    </item>
     
     <item>
       <title>Nand2tetris W5</title>
