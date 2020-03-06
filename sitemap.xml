@@ -1,52 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://hieutle2011.github.io/</loc>
-    <lastmod>2019-10-09T20:23:12+07:00</lastmod>
+    <lastmod>2019-09-29T10:26:08+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://hieutle2011.github.io/post/</loc>
-    <lastmod>2019-10-09T20:23:12+07:00</lastmod>
+    <lastmod>2019-09-29T10:26:08+07:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/tags/assembler/</loc>
-    <lastmod>2019-10-09T20:23:12+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/tags/course/</loc>
-    <lastmod>2019-10-09T20:23:12+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/tags/learn/</loc>
-    <lastmod>2019-10-09T20:23:12+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/tags/nand/</loc>
-    <lastmod>2019-10-09T20:23:12+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/post/nand/nand2tetris-w6/</loc>
-    <lastmod>2019-10-09T20:23:12+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/tags/python/</loc>
-    <lastmod>2019-10-09T20:23:12+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/tags/</loc>
-    <lastmod>2019-10-09T20:23:12+07:00</lastmod>
   </url>
   
   <url>
@@ -60,7 +25,22 @@
   </url>
   
   <url>
+    <loc>https://hieutle2011.github.io/tags/course/</loc>
+    <lastmod>2019-09-29T10:26:08+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hieutle2011.github.io/tags/cpu/</loc>
+    <lastmod>2019-09-29T10:26:08+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/learn/</loc>
+    <lastmod>2019-09-29T10:26:08+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/nand/</loc>
     <lastmod>2019-09-29T10:26:08+07:00</lastmod>
   </url>
   
@@ -71,6 +51,11 @@
   
   <url>
     <loc>https://hieutle2011.github.io/tags/neumann/</loc>
+    <lastmod>2019-09-29T10:26:08+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/tags/</loc>
     <lastmod>2019-09-29T10:26:08+07:00</lastmod>
   </url>
   
@@ -175,16 +160,6 @@
   </url>
   
   <url>
-    <loc>https://hieutle2011.github.io/page/cv/</loc>
-    <lastmod>2019-08-20T13:28:10+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hieutle2011.github.io/page/</loc>
-    <lastmod>2019-08-20T13:28:10+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hieutle2011.github.io/tags/archive/</loc>
     <lastmod>2019-08-20T10:49:54+07:00</lastmod>
   </url>
@@ -215,6 +190,14 @@
   
   <url>
     <loc>https://hieutle2011.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/page/cv/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hieutle2011.github.io/page/</loc>
   </url>
   
 </urlset>

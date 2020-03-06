@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hieu&#39;s Blog</title>
@@ -7,20 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    <lastBuildDate>Wed, 09 Oct 2019 20:23:12 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2019 10:26:08 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Nand2tetris W6</title>
-      <link>https://hieutle2011.github.io/post/nand/nand2tetris-w6/</link>
-      <pubDate>Wed, 09 Oct 2019 20:23:12 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/post/nand/nand2tetris-w6/</guid>
-      <description>This week marks the end of building hardware parts and the beginning of the computer software hierarchy. Each computer has a binary machine language, including a number of 0&amp;rsquo;s and 1&amp;rsquo;s, and a symbolic machine language, consisting of human-friendly mnemonics. Both languages serve the same purpose and are completely equivalent.
-However, assembly language is far easier for human to write and understand. To enjoy this benefit, it is required for a assembler to translate the symbols and labels into binary machine code.</description>
-    </item>
     
     <item>
       <title>Nand2tetris W5</title>
@@ -104,21 +94,6 @@ It would be great to improve on my vim skill by taking note down the essential o
     </item>
     
     <item>
-      <title>Hieu Trung Le</title>
-      <link>https://hieutle2011.github.io/page/cv/</link>
-      <pubDate>Tue, 20 Aug 2019 13:28:10 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/page/cv/</guid>
-      <description>KBTG, Thailand
-☎️ +66910107582 (Thailand)
-☎️ +84982051922 (Vietnam)
-✉️ hieuletrung102@gmail.com
-Love to work with the cutting edge, excited to learn, a creative problem solver, resourceful in getting things done and productive working independently or collaboratively. My top 5 talents from CliftonStrengths result are Learner, Input, Connectedness, Responsibility, Maximizer.
--- Working experience KBTG, Bangkok, Thailand, 10.2018 - current Software Developer
- Develop Node.js back-end powered by Express.js for client app. Develop front-end web for operational management with React.</description>
-    </item>
-    
-    <item>
       <title>Archive Command</title>
       <link>https://hieutle2011.github.io/post/archive-command/</link>
       <pubDate>Tue, 20 Aug 2019 10:49:54 +0700</pubDate>
@@ -146,6 +121,17 @@ $ file a.zip a.zip: Zip archive data, at least v1.0 to extract $ file b.tar b.ta
       <description>Minimalist.
 Environmental advocate.
 Self-taught programmer and life-long learner.</description>
+    </item>
+    
+    <item>
+      <title>Hieu Trung Le</title>
+      <link>https://hieutle2011.github.io/page/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/page/cv/</guid>
+      <description>Love to work with the cutting edge, excited to learn, a creative problem solver and self-taught developer, resourceful in getting things done and productive working independently or collaboratively.
+Working experience TMA, Vietnam, 10.2019 - current Software Developer
+ Work within a cross functional team of Business Analysts, Product Owners and technical lead to understand requirements that drive the design and implementation of technical solutions. Implement enteprise modules in micro-service architecture.</description>
     </item>
     
   </channel>

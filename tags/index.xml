@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hieu&#39;s Blog</title>
@@ -7,55 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    <lastBuildDate>Wed, 09 Oct 2019 20:23:12 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2019 10:26:08 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>assembler</title>
-      <link>https://hieutle2011.github.io/tags/assembler/</link>
-      <pubDate>Wed, 09 Oct 2019 20:23:12 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/assembler/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>course</title>
-      <link>https://hieutle2011.github.io/tags/course/</link>
-      <pubDate>Wed, 09 Oct 2019 20:23:12 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/course/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learn</title>
-      <link>https://hieutle2011.github.io/tags/learn/</link>
-      <pubDate>Wed, 09 Oct 2019 20:23:12 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/learn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nand</title>
-      <link>https://hieutle2011.github.io/tags/nand/</link>
-      <pubDate>Wed, 09 Oct 2019 20:23:12 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/nand/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://hieutle2011.github.io/tags/python/</link>
-      <pubDate>Wed, 09 Oct 2019 20:23:12 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/python/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>architecture</title>
@@ -76,11 +31,38 @@
     </item>
     
     <item>
+      <title>course</title>
+      <link>https://hieutle2011.github.io/tags/course/</link>
+      <pubDate>Sun, 29 Sep 2019 10:26:08 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/course/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CPU</title>
       <link>https://hieutle2011.github.io/tags/cpu/</link>
       <pubDate>Sun, 29 Sep 2019 10:26:08 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/cpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learn</title>
+      <link>https://hieutle2011.github.io/tags/learn/</link>
+      <pubDate>Sun, 29 Sep 2019 10:26:08 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nand</title>
+      <link>https://hieutle2011.github.io/tags/nand/</link>
+      <pubDate>Sun, 29 Sep 2019 10:26:08 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/nand/</guid>
       <description></description>
     </item>
     
