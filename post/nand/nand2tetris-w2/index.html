@@ -92,7 +92,7 @@
   <meta name="twitter:site" content="@manmoveon" />
   <meta name="twitter:creator" content="@manmoveon" />
   <link href='https://hieutle2011.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.66.0" />
   <link rel="alternate" href="https://hieutle2011.github.io/index.xml" type="application/rss+xml" title="Hieu&#39;s Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://hieutle2011.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -287,46 +287,28 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-<blockquote>
+        <blockquote>
 <p>Background</p>
-
 <p>The centerpiece of the computer&rsquo;s architecture is the CPU, or Central Processing Unit, and the centerpiece of the CPU is the ALU, or Arithmetic-Logic Unit. In this project you will gradually build a set of chips, culminating in the construction of the ALU chip of the Hack computer. All the chips built in this project are standard, except for the ALU itself, which differs from one computer architecture to another.</p>
 </blockquote>
-
 <h3 id="1-the-theory">1. The Theory</h3>
-
 <p>After finishing week 1 rather quick, i was eager to start week 2 and looking forward to next type of chips. The theory is presented in such an easy way that i can do arithmetic calculation base 2 and 10, negative numbers right away. Just to remember the sum part and carry part and you are good to go to project task. Here is the link to chapter 2  of the Elements of Computing Systems. <a href="https://drive.google.com/file/d/14XfZpXZtiHb6py8S1ZiOrHkHMSUCfA7t/view">Link</a>.</p>
-
-<p><img src="https://user-images.githubusercontent.com/30904297/63788466-bdfaa500-c91f-11e9-8487-7accbd3e45d2.png" alt="pos-neg-number" /></p>
-
+<p><img src="https://user-images.githubusercontent.com/30904297/63788466-bdfaa500-c91f-11e9-8487-7accbd3e45d2.png" alt="pos-neg-number"></p>
 <p>There are only 5 hdl files to write and i can finish the first 4 at ease, which are Add16, FullAdder, HaflAdder and Inc16. However, the last is ALU (Arithmetic Logic Unit) turned out to be a toughest challenge so far.</p>
-
 <p>There are few reasons. First is that you need to turn to theory part to grap the idea how to distinguish the positive and negative base 16 (positive number has most significance bit 0, negative 1). Secondly, you need to absorb the abstraction idea of all elementary chips built in this and last week. That means you change your role from creator to user of the higher lever chips and revisit their documentations a few times. Actually, chips are used to build ALU are Mux16, Not16, Add16, And16 and Or8Way.</p>
-
 <blockquote>
 <p>Counting is the religion of this generation, its hope and salvation.</p>
-
 <p>&ndash; Gertrude Stein (1874–1946)</p>
 </blockquote>
-
 <h3 id="2-the-project">2. The Project</h3>
-
-<p><img src="https://user-images.githubusercontent.com/30904297/63785718-fea3ef80-c91a-11e9-81ff-78a467119feb.png" alt="ALU" /></p>
-
+<p><img src="https://user-images.githubusercontent.com/30904297/63785718-fea3ef80-c91a-11e9-81ff-78a467119feb.png" alt="ALU"></p>
 <p>After many try and errors and google searches, i ended up with only almost 20 LOCs. It took 38 secs to run through all test cases and i was breathing a sight of relief that none failed case was found. Another small archievement was unlocked - a fully functional ALU chip, and i am happy now 🎉. Finally i found that the chip is quite simple but really powerful.</p>
-
 <blockquote>
 <p>Simplicity is the ultimate sophistication.</p>
-
 <p>&ndash; Leonardo da Vinci</p>
 </blockquote>
-
-<hr />
-
+<hr>
 <p><strong>Key concepts</strong>: Binary numbers, binary addition, the two&rsquo;s complement method, half-adders, full-adders, n-bit adders, counters, Arithmetic Logic Unit (ALU), combinational logic.</p>
-
 <p><a href="https://www.nand2tetris.org/project02">More information</a></p>
 
 
@@ -518,7 +500,7 @@ if (!doNotTrack) {
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.59.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.66.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>

@@ -92,7 +92,7 @@
   <meta name="twitter:site" content="@manmoveon" />
   <meta name="twitter:creator" content="@manmoveon" />
   <link href='https://hieutle2011.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.66.0" />
   <link rel="alternate" href="https://hieutle2011.github.io/index.xml" type="application/rss+xml" title="Hieu&#39;s Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://hieutle2011.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -287,56 +287,46 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-<p>Last week, my wife came to BKK to see me and we had a wonderful short trip to Koh Lan island just 40 minutes away from Pattaya. It had been almost 2 months since we last met when i was in Vietnam back then, so that we did enjoyed our time together. Moreover, we accompanied 2 great friends in Son and Tik and all four of us took photos, shared stories and laughed so hard in that sea food restaurant while playing Tik-guessing game and drinking beers.</p>
-
+        <p>Last week, my wife came to BKK to see me and we had a wonderful short trip to Koh Lan island just 40 minutes away from Pattaya. It had been almost 2 months since we last met when i was in Vietnam back then, so that we did enjoyed our time together. Moreover, we accompanied 2 great friends in Son and Tik and all four of us took photos, shared stories and laughed so hard in that sea food restaurant while playing Tik-guessing game and drinking beers.</p>
 <p>That is the reason why i was late for week 5 project until today. To be fair, this project of building a computer is most challenging since beginning of the course. While looking up a forum specialized to the nand2tetris, it wasn&rsquo;t only me who got stuck at some point building the CPU. Surfing through all the related posts and reading answers did give me more insights of the CPU and kept me going through.</p>
-
 <p>The week material is quite overwhelm with 92 minutes of videos, 92 pages of slides and 29 pages of book chapter for me to work on. What all the 9s and 2s have to do are really funny i think. Also, i need to go back to previous chapter 4 (machine language) to review the logic behind jump field of C-instruction. It was huge and i would easily forget all those details after commencing the course, surely these below notes will help my future me to understand what was going on.</p>
-
 <h3 id="computer-architecture-fundamentals">Computer architecture fundamentals</h3>
-
 <p>Chapter 5 starts with the idea of The Stored Program Concept which was formed in 1930s. That is a computer with finite hardware platform can perform infinite number of tasks from instructions passed to it. These instructions can be combined in building block that yeild arbitrarily sophisicated programs, and these programs are not fixed with the hardware but be stored in memory just like data, called software. Such that different loaded softwares ask the hardware to perform differently.</p>
-
 <p>As you can see from below diagram, the von Neumann machine (1945) is the practical architecture and almost all mordern computers are based on this concept.</p>
-
-<p><img src="/images/vonNeumann.png" alt="The von Neumann architecture" /></p>
-
+<p><img src="/images/vonNeumann.png" alt="The von Neumann architecture"></p>
 <h3 id="the-hack-hardware-platform">The Hack hardware platform</h3>
-
 <p>The Hack platform is a 16-bit von Neumann machine, designed to execute programs written in Hack machine language (chapter 4). The Hack platform consists of a CPU, 2 seperate memory modules playing the roles of instruction memory (ROM) and data memory (RAM), and 2 memory-mapped I/O devices: a screen and a keyboard.</p>
-
-<p>The ROM contains the the 16bit instruction: “<span style="color:black">i</span>xx<span style="color:blue">a</span><span style="color:blue">cccccc</span><span style="color:green">ddd</span><span style="color:brown">jjj</span>” where:</p>
-
+<p>The ROM contains the the 16bit instruction: “<!-- raw HTML omitted -->i<!-- raw HTML omitted -->xx<!-- raw HTML omitted -->a<!-- raw HTML omitted --><!-- raw HTML omitted -->cccccc<!-- raw HTML omitted --><!-- raw HTML omitted -->ddd<!-- raw HTML omitted --><!-- raw HTML omitted -->jjj<!-- raw HTML omitted -->” where:</p>
 <ul>
-<li><p><code>i</code>-bit: operation code. If opcode=0 means A-instruction, the whole 16bit is value of the constant should be loaded into the A register. Else, opcode=1 mean C-instruction, the breakdown is as below:</p></li>
-
-<li><p><code>a</code> and <code>c</code>-bit: comparision part</p></li>
-
-<li><p><code>d</code>-bit: destination part</p></li>
-
-<li><p><code>j</code>-bit: jump part (have to dig deep for the logic in week 4 material!)</p></li>
+<li>
+<p><code>i</code>-bit: operation code. If opcode=0 means A-instruction, the whole 16bit is value of the constant should be loaded into the A register. Else, opcode=1 mean C-instruction, the breakdown is as below:</p>
+</li>
+<li>
+<p><code>a</code> and <code>c</code>-bit: comparision part</p>
+</li>
+<li>
+<p><code>d</code>-bit: destination part</p>
+</li>
+<li>
+<p><code>j</code>-bit: jump part (have to dig deep for the logic in week 4 material!)</p>
+</li>
 </ul>
-
 <p>Because the pre-loaded ROM is provided, all hard work is to write hdl code to build the data memory and the CPU. While the fairly straightforward data memory has 3 parts: RAM16K, Screen and Keyboard memory-mapped, i found CPU is a real killer. It took me hours of reading on course material and on forum for logic, figuring out the control part of every chip, debugging on each line of the test script and finally grasp the idea of the instructor. I did ask for help on <a href="http://nand2tetris-questions-and-answers-forum.32033.n3.nabble.com/Could-someone-have-a-look-at-my-CPU-design-td4031042.html#a4033704">the forum</a>, however, i could pass the test successfully myself before receiving any feedback.</p>
-
-<p><img src="/images/CPU.png" alt="CPU diagram" /></p>
-
+<p><img src="/images/CPU.png" alt="CPU diagram"></p>
 <p>Then building the Hack computer is a peice of cake as all i need to do is connect 3 parts together in just a few minutes. That&rsquo;s it!</p>
-
-<p><img src="/images/Hack.png" alt="Hack computer" /></p>
-
-<hr />
-
+<p><img src="/images/Hack.png" alt="Hack computer"></p>
+<hr>
 <p><strong>Key concepts:</strong> Von Neumann and Harvard architectures, the stored program concept, fetch-execute cycle, data bus, instruction bus, CPU, computer design.</p>
-
 <ul>
-<li><p><a href="https://docs.wixstatic.com/ugd/56440f_96cbb9c6b8b84760a04c369453b62908.pdf">Slide</a></p></li>
-
-<li><p><a href="https://docs.wixstatic.com/ugd/44046b_552ed0898d5d491aabafd8a768a87c6f.pdf">Reading</a></p></li>
-
-<li><p><a href="http://nand2tetris-questions-and-answers-forum.32033.n3.nabble.com/Project-5-f32606.html">Forum</a></p></li>
+<li>
+<p><a href="https://docs.wixstatic.com/ugd/56440f_96cbb9c6b8b84760a04c369453b62908.pdf">Slide</a></p>
+</li>
+<li>
+<p><a href="https://docs.wixstatic.com/ugd/44046b_552ed0898d5d491aabafd8a768a87c6f.pdf">Reading</a></p>
+</li>
+<li>
+<p><a href="http://nand2tetris-questions-and-answers-forum.32033.n3.nabble.com/Project-5-f32606.html">Forum</a></p>
+</li>
 </ul>
 
 
@@ -524,7 +514,7 @@ if (!doNotTrack) {
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.59.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.66.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>

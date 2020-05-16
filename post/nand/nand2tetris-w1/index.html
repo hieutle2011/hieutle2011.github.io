@@ -92,7 +92,7 @@
   <meta name="twitter:site" content="@manmoveon" />
   <meta name="twitter:creator" content="@manmoveon" />
   <link href='https://hieutle2011.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.66.0" />
   <link rel="alternate" href="https://hieutle2011.github.io/index.xml" type="application/rss+xml" title="Hieu&#39;s Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://hieutle2011.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -287,41 +287,32 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-<blockquote>
+        <blockquote>
 <p>Background</p>
-
 <p>A typical computer architecture is based on a set of elementary logic gates like And, Or, Mux, etc., as well as their bit-wise versions And16, Or16, Mux16, etc. (assuming a 16-bit machine). This project engages you in the construction of a typical set of basic logic gates. These gates form the elementary building blocks from which more complex chips will be later constructed.</p>
 </blockquote>
-
 <p>Here is what i have learnt in this week.</p>
-
-<h3 id="1-boolean-laws">1.Boolean laws</h3>
-
-<p><img src="https://user-images.githubusercontent.com/30904297/63658581-deb6e380-c7d5-11e9-9141-a1b093c92b09.png" alt="Boolean-Identities" /></p>
-
+<h3 id="1boolean-laws">1.Boolean laws</h3>
+<p><img src="https://user-images.githubusercontent.com/30904297/63658581-deb6e380-c7d5-11e9-9141-a1b093c92b09.png" alt="Boolean-Identities"></p>
 <p>Any boolean function can be represented using an expression containing only <strong>NAND</strong> operations.</p>
-
 <h5 id="proof">Proof:</h5>
-
 <ul>
-<li><p>NOT(x) = (x NAND x)</p></li>
-
-<li><p>(x AND y) = NOT(x NAND y)</p></li>
+<li>
+<p>NOT(x) = (x NAND x)</p>
+</li>
+<li>
+<p>(x AND y) = NOT(x NAND y)</p>
+</li>
 </ul>
-
-<h3 id="2-hardware-description-language">2.Hardware description language</h3>
-
+<h3 id="2hardware-description-language">2.Hardware description language</h3>
 <blockquote>
 <p>In computer engineering, a hardware description language is a specialized computer language used to describe the structure and behavior of electronic circuits, and most commonly, digital logic circuits.
 <a href="https://en.wikipedia.org/wiki/Hardware_description_language">Wikipedia</a></p>
 </blockquote>
-
 <p>Here is the <code>hdl</code> code for the <strong>And gate</strong> (or chip).</p>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">/**
  * And gate: 
- * <span class="nv">out</span> <span class="o">=</span> <span class="m">1</span> <span class="k">if</span> <span class="o">(</span><span class="nv">a</span> <span class="o">==</span> <span class="m">1</span> and <span class="nv">b</span> <span class="o">==</span> <span class="m">1</span><span class="o">)</span>
+ * <span class="nv">out</span> <span class="o">=</span> <span class="m">1</span> <span class="k">if</span> <span class="o">(</span><span class="nv">a</span> <span class="o">==</span> <span class="m">1</span> and <span class="nv">b</span> <span class="o">==</span> 1<span class="o">)</span>
  *       <span class="m">0</span> otherwise
  */
 
@@ -332,11 +323,9 @@ CHIP And <span class="o">{</span>
     PARTS:
     Nand<span class="o">(</span><span class="nv">a</span><span class="o">=</span>a,b<span class="o">=</span>b,out<span class="o">=</span>o<span class="o">)</span><span class="p">;</span>
     Not<span class="o">(</span><span class="nv">in</span><span class="o">=</span>o,out<span class="o">=</span>out<span class="o">)</span><span class="p">;</span>
-<span class="o">}</span></code></pre></div>
-<p>Notice how <strong>And gate</strong> is built on <strong>Nand gate</strong>, &hellip; and <strong>Not gate</strong>, but actually <strong>Not gate</strong> is built on <strong>Nand gate</strong> as well. <strong>Nand</strong> is the atom gate, hence the course named <em>Nand2Tetris</em>.</p>
-
+<span class="o">}</span>
+</code></pre></div><p>Notice how <strong>And gate</strong> is built on <strong>Nand gate</strong>, &hellip; and <strong>Not gate</strong>, but actually <strong>Not gate</strong> is built on <strong>Nand gate</strong> as well. <strong>Nand</strong> is the atom gate, hence the course named <em>Nand2Tetris</em>.</p>
 <p>Premitive <strong>Nand gate</strong> that be used to build other gates. <strong>Nand</strong> means not-And, the opposite of <strong>And gate</strong>.</p>
-
 <table>
 <thead>
 <tr>
@@ -347,7 +336,6 @@ CHIP And <span class="o">{</span>
 <th>And</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>0</td>
@@ -356,7 +344,6 @@ CHIP And <span class="o">{</span>
 <td></td>
 <td>0</td>
 </tr>
-
 <tr>
 <td>0</td>
 <td>1</td>
@@ -364,7 +351,6 @@ CHIP And <span class="o">{</span>
 <td></td>
 <td>0</td>
 </tr>
-
 <tr>
 <td>1</td>
 <td>0</td>
@@ -372,7 +358,6 @@ CHIP And <span class="o">{</span>
 <td></td>
 <td>0</td>
 </tr>
-
 <tr>
 <td>1</td>
 <td>1</td>
@@ -382,21 +367,20 @@ CHIP And <span class="o">{</span>
 </tr>
 </tbody>
 </table>
-
-<h3 id="3-project-logic-gates">3.Project: Logic gates</h3>
-
+<h3 id="3project-logic-gates">3.Project: Logic gates</h3>
 <p>Enough for the theory, let&rsquo;s get your hand dirty writing actual hdl codes. In this week, 15 gates are built can be categorized into 3 groups:</p>
-
 <ul>
-<li><p>Elementary logic gates (e.g: And, Or, Xor, &hellip;)</p></li>
-
-<li><p>16-bit variant of above gates (e.g: And16, Or16, &hellip;)</p></li>
-
-<li><p>Multi-way variants gates</p></li>
+<li>
+<p>Elementary logic gates (e.g: And, Or, Xor, &hellip;)</p>
+</li>
+<li>
+<p>16-bit variant of above gates (e.g: And16, Or16, &hellip;)</p>
+</li>
+<li>
+<p>Multi-way variants gates</p>
+</li>
 </ul>
-
 <p>Reference</p>
-
 <ul>
 <li><a href="https://github.com/LearnTeachCode/nand2tetris">Study group notes</a></li>
 <li><a href="https://www.nand2tetris.org/software/HDL-Survival-Guide.htm">Survival Guide</a></li>
@@ -589,7 +573,7 @@ CHIP And <span class="o">{</span>
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.59.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.66.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>

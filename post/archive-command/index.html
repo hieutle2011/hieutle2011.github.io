@@ -92,7 +92,7 @@
   <meta name="twitter:site" content="@manmoveon" />
   <meta name="twitter:creator" content="@manmoveon" />
   <link href='https://hieutle2011.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.66.0" />
   <link rel="alternate" href="https://hieutle2011.github.io/index.xml" type="application/rss+xml" title="Hieu&#39;s Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://hieutle2011.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -287,9 +287,7 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        
-
-<p>There are many types of compress file, with each type we should have different command to interact with it. To find which archive type we are working with, use <code>file</code> command.</p>
+        <p>There are many types of compress file, with each type we should have different command to interact with it. To find which archive type we are working with, use <code>file</code> command.</p>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ file a.zip
 a.zip: Zip archive data, at least v1.0 to extract
 
@@ -297,9 +295,8 @@ $ file b.tar
 b.tar: POSIX tar archive <span class="o">(</span>GNU<span class="o">)</span>
 
 $ file c.tar.gz
-c.tar.gz: gzip compressed data, last modified: Tue Aug <span class="m">20</span> <span class="m">04</span>:33:47 <span class="m">2019</span>, from Unix</code></pre></div>
-<p>Here are some most common types i&rsquo;ve been working with recently.</p>
-
+c.tar.gz: gzip compressed data, last modified: Tue Aug <span class="m">20</span> 04:33:47 2019, from Unix
+</code></pre></div><p>Here are some most common types i&rsquo;ve been working with recently.</p>
 <h3 id="zip">Zip</h3>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Compress</span>
 $ zip a.zip file1 file2 file3 <span class="c1"># from individual files</span>
@@ -307,36 +304,41 @@ $ zip a.zip file1 file2 file3 <span class="c1"># from individual files</span>
 $ zip -r a.zip dir_name       <span class="c1"># from a folder, -r = recursive</span>
 
 <span class="c1"># Decompress</span>
-$ unzip -d directory a.zip</code></pre></div>
-<p><em>-j</em> | <em>&ndash;junk-paths</em> =&gt; Store just the name of a saved file (junk the path), and do not store directory names. By default, zip will store the full path (relative to the current directory).</p>
+$ unzip -d directory a.zip
+</code></pre></div><p><em>-j</em> | <em>&ndash;junk-paths</em> =&gt; Store just the name of a saved file (junk the path), and do not store directory names. By default, zip will store the full path (relative to the current directory).</p>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Generate source.zip file which contains all hdl files in this folder and its sub-folder</span>
-$ find . -name <span class="s2">&#34;*.hdl&#34;</span> <span class="p">|</span> zip -j <span class="nb">source</span> -@</code></pre></div>
-<h3 id="tar">Tar</h3>
+$ find . -name <span class="s2">&#34;*.hdl&#34;</span> <span class="p">|</span> zip -j <span class="nb">source</span> -@
+</code></pre></div><h3 id="tar">Tar</h3>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Compress</span>
 $ tar cvf b.tar file1 file2
 
 <span class="c1"># Decompress</span>
-$ tar xvf b.tar</code></pre></div>
-<h3 id="tar-gz">Tar.gz</h3>
+$ tar xvf b.tar
+</code></pre></div><h3 id="targz">Tar.gz</h3>
 <div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Compress</span>
 $ tar czvf c.tar.gz file1 file2
 
 <span class="c1"># Decompress</span>
-$ tar xzvf c.tar.gz</code></pre></div>
-<h2 id="note">Note</h2>
-
+$ tar xzvf c.tar.gz
+</code></pre></div><h2 id="note">Note</h2>
 <ul>
-<li><strong>c</strong>  compress <code>|</code> <strong>x</strong>  extract</li>
-<li><strong>f</strong>  file</li>
-<li><strong>z</strong>  gz</li>
-
-<li><p><strong>v</strong>  verbose (optional for debugging)</p></li>
-
-<li><p>You can compress without declaring the extension <strong>.zip</strong>, <strong>.tar</strong>, or <strong>.tar.gz</strong>. The former will automatically put .zip into a new file, however it&rsquo;s not true for the laters. When in doubt of archive file type, use command <code>file</code>.</p></li>
+<li>
+<p><strong>c</strong>  compress <code>|</code> <strong>x</strong>  extract</p>
+</li>
+<li>
+<p><strong>f</strong>  file</p>
+</li>
+<li>
+<p><strong>z</strong>  gz</p>
+</li>
+<li>
+<p><strong>v</strong>  verbose (optional for debugging)</p>
+</li>
+<li>
+<p>You can compress without declaring the extension <strong>.zip</strong>, <strong>.tar</strong>, or <strong>.tar.gz</strong>. The former will automatically put .zip into a new file, however it&rsquo;s not true for the laters. When in doubt of archive file type, use command <code>file</code>.</p>
+</li>
 </ul>
-
 <h2 id="reference">Reference</h2>
-
 <ul>
 <li><a href="https://www.familug.org/2012/09/nen-giai-nen-bang-command-line-trong.html">familug</a></li>
 </ul>
@@ -514,7 +516,7 @@ $ tar xzvf c.tar.gz</code></pre></div>
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.59.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.66.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>

@@ -92,7 +92,7 @@
   <meta name="twitter:site" content="@manmoveon" />
   <meta name="twitter:creator" content="@manmoveon" />
   <link href='https://hieutle2011.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
-  <meta name="generator" content="Hugo 0.59.1" />
+  <meta name="generator" content="Hugo 0.66.0" />
   <link rel="alternate" href="https://hieutle2011.github.io/index.xml" type="application/rss+xml" title="Hieu&#39;s Blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://hieutle2011.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
@@ -289,42 +289,31 @@ if (!doNotTrack) {
       <article role="main" class="blog-post">
         <blockquote>
 <p>Background</p>
-
 <p>The computer&rsquo;s main memory, also called Random Access Memory, or RAM, is an addressable sequence of n-bit registers, each designed to hold an n-bit value. In this project you will gradually build a RAM unit. This involves two main issues: (i) how to use gate logic to store bits persistently, over time, and (ii) how to use gate logic to locate (&ldquo;address&rdquo;) the memory register on which we wish to operate.</p>
 </blockquote>
-
 <p>Well, this third week took me over a week to finally finish it. I have to priotize another learning for a side project at work, where my responsibility is to develop a front end app using <a href="https://flutter.dev/">Google&rsquo;s UI toolkit flutter</a>. For this experience, you can read more in another post.</p>
-
 <p>It turned out the idea of physical time and clock time took a litte while for me to fully comprehend. Unlike the combinational logic where the output is a pure function of the present input only, sequential logic output depends on the present input (optionally) and the history of the input (the memory part).</p>
-
 <p>The heart of this memory effect is the chip called DFF (data flip-flops). This DFF is provided due to the limitation of the hardware simulator used in the course, and is the atom chip used to build other sequential chips. The idea is to combine the group of combinational logic and DFF chips to construct the register chip and later random access memory chips (RAM).</p>
-
 <p>Notice the small triangular icon inside the DFF, this represents the memory effect of the sequential chips.</p>
-
-<p><img src="/images/sequential-chip.png" alt="seq-chip" /></p>
-
+<p><img src="/images/sequential-chip.png" alt="seq-chip"></p>
 <p>With this concept in mind, i could write files for 1-bit register, multi-bit register, RAM8, RAM64, RAM512, RAM4K and RAM16K with little effort.</p>
-
-<p><img src="/images/RAM.png" alt="RAM" /></p>
-
+<p><img src="/images/RAM.png" alt="RAM"></p>
 <p>The last chip, the most time-consuming, is Program Counter (PC). While playing around with the hdl code, i slowly grasp the idea of computer memory and of the usage of RAM. The PC is designed to support 3 operations:</p>
-
 <ul>
-<li><p>Reset: fetch the first instruction</p></li>
-
-<li><p>Next: fetch the next instruction</p></li>
-
-<li><p>Goto: fetch the instruction <em>n</em></p></li>
+<li>
+<p>Reset: fetch the first instruction</p>
+</li>
+<li>
+<p>Next: fetch the next instruction</p>
+</li>
+<li>
+<p>Goto: fetch the instruction <em>n</em></p>
+</li>
 </ul>
-
-<p><img src="/images/PC.png" alt="PC" /></p>
-
+<p><img src="/images/PC.png" alt="PC"></p>
 <p>Finishing on PC and all project codes passed test successfully, it felt like i would fly to the sky. Bring on week 4!</p>
-
-<hr />
-
+<hr>
 <p><strong>Key concepts:</strong> combinational vs sequential logic, clocks and cycles, flip-flops, registers, RAM units, counters.</p>
-
 <p><a href="https://www.nand2tetris.org/project03">More information</a></p>
 
 
@@ -516,7 +505,7 @@ if (!doNotTrack) {
         </p>
         
         <p class="credits theme-by text-muted">
-          <a href="https://gohugo.io">Hugo v0.59.1</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          <a href="https://gohugo.io">Hugo v0.66.0</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
           
         </p>
       </div>
