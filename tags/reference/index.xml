@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reference on Hieu&#39;s Blog</title>
+    <link>https://hieutle2011.github.io/tags/reference/</link>
+    <description>Recent content in reference on Hieu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
+    <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
+    <lastBuildDate>Tue, 20 Aug 2019 15:23:54 +0700</lastBuildDate>
+    
+	<atom:link href="https://hieutle2011.github.io/tags/reference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Links</title>
+      <link>https://hieutle2011.github.io/post/hugo-links/</link>
+      <pubDate>Tue, 20 Aug 2019 15:23:54 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/post/hugo-links/</guid>
+      <description>I save these for furture reference regards blogging.
+  Emoji cheat sheet
+  Markdown cheat sheet
+  Md compact
+  How to build static site dev.to
+  How to host on gohugo.io
+  </description>
+    </item>
+    
+  </channel>
+</rss>
