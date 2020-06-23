@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>self-taught on Hieu&#39;s Blog</title>
+    <link>https://hieutle2011.github.io/tags/self-taught/</link>
+    <description>Recent content in self-taught on Hieu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
+    <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
+    <lastBuildDate>Mon, 22 Jun 2020 21:36:01 +0700</lastBuildDate>
+    
+	<atom:link href="https://hieutle2011.github.io/tags/self-taught/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Without CS degree</title>
+      <link>https://hieutle2011.github.io/post/without-cs/</link>
+      <pubDate>Mon, 22 Jun 2020 21:36:01 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/post/without-cs/</guid>
+      <description>I don’t have a CS degree so I&amp;rsquo;ve had to learn on my own. (@RandallKanna)
+ This is the title of a twitter thread which is true for me. I found this thread a world of useful resources that a blog post to document them for later use is a good idea. Below are the original post and the links to the courses/material/videos.
+ Start with a great intro course to get you excited about learning.</description>
+    </item>
+    
+  </channel>
+</rss>

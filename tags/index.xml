@@ -7,10 +7,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
     <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    <lastBuildDate>Sun, 29 Sep 2019 10:26:08 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2020 21:36:01 +0700</lastBuildDate>
     
 	<atom:link href="https://hieutle2011.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>book</title>
+      <link>https://hieutle2011.github.io/tags/book/</link>
+      <pubDate>Mon, 22 Jun 2020 21:36:01 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>course</title>
+      <link>https://hieutle2011.github.io/tags/course/</link>
+      <pubDate>Mon, 22 Jun 2020 21:36:01 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/course/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CS</title>
+      <link>https://hieutle2011.github.io/tags/cs/</link>
+      <pubDate>Mon, 22 Jun 2020 21:36:01 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learn</title>
+      <link>https://hieutle2011.github.io/tags/learn/</link>
+      <pubDate>Mon, 22 Jun 2020 21:36:01 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resource</title>
+      <link>https://hieutle2011.github.io/tags/resource/</link>
+      <pubDate>Mon, 22 Jun 2020 21:36:01 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/resource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self-taught</title>
+      <link>https://hieutle2011.github.io/tags/self-taught/</link>
+      <pubDate>Mon, 22 Jun 2020 21:36:01 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/self-taught/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>https://hieutle2011.github.io/tags/twitter/</link>
+      <pubDate>Mon, 22 Jun 2020 21:36:01 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/tags/twitter/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>architecture</title>
@@ -31,29 +94,11 @@
     </item>
     
     <item>
-      <title>course</title>
-      <link>https://hieutle2011.github.io/tags/course/</link>
-      <pubDate>Sun, 29 Sep 2019 10:26:08 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/course/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CPU</title>
       <link>https://hieutle2011.github.io/tags/cpu/</link>
       <pubDate>Sun, 29 Sep 2019 10:26:08 +0700</pubDate>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/tags/cpu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learn</title>
-      <link>https://hieutle2011.github.io/tags/learn/</link>
-      <pubDate>Sun, 29 Sep 2019 10:26:08 +0700</pubDate>
-      <author>hieuletrung102@gmail.com (Hieu Le)</author>
-      <guid>https://hieutle2011.github.io/tags/learn/</guid>
       <description></description>
     </item>
     
