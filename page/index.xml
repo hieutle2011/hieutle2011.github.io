@@ -6,11 +6,7 @@
     <description>Recent content in Pages on Hieu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
-    <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    
-	<atom:link href="https://hieutle2011.github.io/page/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster><atom:link href="https://hieutle2011.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About me</title>
       <link>https://hieutle2011.github.io/page/about/</link>
@@ -29,8 +25,8 @@ Self-taught programmer and life-long learner.</description>
       <author>hieuletrung102@gmail.com (Hieu Le)</author>
       <guid>https://hieutle2011.github.io/page/cv/</guid>
       <description>Love to work with the cutting edge, excited to learn, a creative problem solver and self-taught developer, resourceful in getting things done and productive working independently or collaboratively.
- Working experience TMA, Vietnam, 10.2019 - current Software Developer
- Work within a cross functional team of Business Analysts, Product Owners and technical lead to understand requirements that drive the design and implementation of technical solutions. Implement enterprise modules in micro-service architecture.</description>
+ Working experience LittleLives, Vietnam, 08.2020 - current Backend Developer
+ Design, write and test APIs and backend applications in Elixir and Nodejs Build and develop new features and modify existing ones Support mobile and front end team for any changes in requirement Optimize code and SQL query to fasten response from APIs call Collaborate closely with engineers across teams Be an active member of an internationally experienced team  TMA, Vietnam, 10.</description>
     </item>
     
   </channel>

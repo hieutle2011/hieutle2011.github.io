@@ -6,10 +6,6 @@
     <description>Recent content in Categories on Hieu&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
-    <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
-    
-	<atom:link href="https://hieutle2011.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster><atom:link href="https://hieutle2011.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
