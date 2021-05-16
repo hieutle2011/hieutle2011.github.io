@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Hieu&#39;s Blog</title>
+    <link>https://hieutle2011.github.io/tags/docker/</link>
+    <description>Recent content in docker on Hieu&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>hieuletrung102@gmail.com (Hieu Le)</managingEditor>
+    <webMaster>hieuletrung102@gmail.com (Hieu Le)</webMaster>
+    <lastBuildDate>Sun, 16 May 2021 22:14:13 +0700</lastBuildDate><atom:link href="https://hieutle2011.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Load pubkey &#34;/root/.ssh/key.pem&#34;: invalid format</title>
+      <link>https://hieutle2011.github.io/post/load-pubkey-invalid-format/</link>
+      <pubDate>Sun, 16 May 2021 22:14:13 +0700</pubDate>
+      <author>hieuletrung102@gmail.com (Hieu Le)</author>
+      <guid>https://hieutle2011.github.io/post/load-pubkey-invalid-format/</guid>
+      <description>Last week, i tackled a task that required to ssh to remote server from a cron job. Identity is authenticated using PEM file. I can connect successfully from my local terminal with command.
+$ ssh -i ~/.ssh/key.pem root@host My PEM file format is as such
+-----BEGIN RSA PRIVATE KEY----- [actual key] -----END RSA PRIVATE KEY----- The problem happened when cron job (running within a docker container) try to ssh, there is Load pubkey &amp;ldquo;/root/.</description>
+    </item>
+    
+  </channel>
+</rss>

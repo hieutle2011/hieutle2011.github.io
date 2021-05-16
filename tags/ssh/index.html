@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>archive - Hieu&#39;s Blog</title>
+  <title>ssh - Hieu&#39;s Blog</title>
   <meta name="author" content="Hieu Le"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -29,13 +29,13 @@
 }
 </script>
 
-<meta property="og:title" content="archive" />
+<meta property="og:title" content="ssh" />
 <meta property="og:image" content="https://hieutle2011.github.io/images/avatar.png" />
-<meta property="og:url" content="https://hieutle2011.github.io/tags/archive/" />
+<meta property="og:url" content="https://hieutle2011.github.io/tags/ssh/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Hieu&#39;s Blog" />
 
-  <meta name="twitter:title" content="archive" />
+  <meta name="twitter:title" content="ssh" />
   <meta name="twitter:image" content="https://hieutle2011.github.io/images/avatar.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@manmoveon" />
@@ -193,7 +193,7 @@ if (!doNotTrack) {
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="tags-heading">
               
-                <h1>archive</h1>
+                <h1>ssh</h1>
               
               
                 <hr class="small">
@@ -217,13 +217,9 @@ if (!doNotTrack) {
         <div class="posts-list">
           
             <article class="post-preview">
-              <a href="https://hieutle2011.github.io/post/archive-command/">
-                <h2 class="post-title">Archive Command</h2>
+              <a href="https://hieutle2011.github.io/post/load-pubkey-invalid-format/">
+                <h2 class="post-title">Load pubkey &#34;/root/.ssh/key.pem&#34;: invalid format</h2>
 
-                
-                  <h3 class="post-subtitle">
-                    Quick note for compress files
-                  </h3>
                 
               </a>
 
@@ -237,7 +233,7 @@ if (!doNotTrack) {
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;254&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;282&nbsp;words
   
   
     
@@ -251,20 +247,19 @@ if (!doNotTrack) {
               </p>
               <div class="post-entry">
                 
-                  There are many types of compress file, with each type we should have different command to interact with it. To find which archive type we are working with, use file command.
-$ file a.zip a.zip: Zip archive data, at least v1.0 to extract $ file b.tar b.tar: POSIX tar archive (GNU) $ file c.tar.gz c.tar.gz: gzip compressed data, last modified: Tue Aug 20 04:33:47 2019, from Unix Here are some most common types i&rsquo;ve been working with recently.
-                  <a href="https://hieutle2011.github.io/post/archive-command/" class="post-read-more">[Read More]</a>
+                  Last week, i tackled a task that required to ssh to remote server from a cron job. Identity is authenticated using PEM file. I can connect successfully from my local terminal with command.
+$ ssh -i ~/.ssh/key.pem root@host My PEM file format is as such
+-----BEGIN RSA PRIVATE KEY----- [actual key] -----END RSA PRIVATE KEY----- The problem happened when cron job (running within a docker container) try to ssh, there is Load pubkey &ldquo;/root/.
+                  <a href="https://hieutle2011.github.io/post/load-pubkey-invalid-format/" class="post-read-more">[Read More]</a>
                 
               </div>
 
               
                 <div class="blog-tags">
                   
-                    <a href="https://hieutle2011.github.io/tags/archive/">archive</a>&nbsp;
+                    <a href="https://hieutle2011.github.io/tags/ssh/">ssh</a>&nbsp;
                   
-                    <a href="https://hieutle2011.github.io/tags/command/">command</a>&nbsp;
-                  
-                    <a href="https://hieutle2011.github.io/tags/linux/">linux</a>&nbsp;
+                    <a href="https://hieutle2011.github.io/tags/docker/">docker</a>&nbsp;
                   
                 </div>
               

@@ -7,7 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>archive - Hieu&#39;s Blog</title>
+  <title>Load pubkey &#34;/root/.ssh/key.pem&#34;: invalid format - Hieu&#39;s Blog</title>
+  <meta name="description" content="Last week, i tackled a task that required to ssh to remote server from a cron job. Identity is authenticated using PEM file. I can connect successfully from my local terminal with command.
+$ ssh -i ~/.ssh/key.pem root@host My PEM file format is as such
+-----BEGIN RSA PRIVATE KEY----- [actual key] -----END RSA PRIVATE KEY----- The problem happened when cron job (running within a docker container) try to ssh, there is Load pubkey &ldquo;/root/.">
   <meta name="author" content="Hieu Le"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -28,14 +31,67 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/hieutle2011.github.io",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/hieutle2011.github.io\/post\/load-pubkey-invalid-format\/",
+          "name": "Load pubkey \u0022 root .ssh key.pem\u0022 invalid format"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Hieu Le"
+  },
+  "headline": "Load pubkey \u0022\/root\/.ssh\/key.pem\u0022: invalid format",
+  "description" : "Last week, i tackled a task that required to ssh to remote server from a cron job. Identity is authenticated using PEM file. I can connect successfully from my local terminal with command.\n$ ssh -i ~\/.ssh\/key.pem root@host My PEM file format is as such\n-----BEGIN RSA PRIVATE KEY----- [actual key] -----END RSA PRIVATE KEY----- The problem happened when cron job (running within a docker container) try to ssh, there is Load pubkey \u0026ldquo;\/root\/.",
+  "inLanguage" : "en",
+  "wordCount":  282 ,
+  "datePublished" : "2021-05-16T22:14:13",
+  "dateModified" : "2021-05-16T22:14:13",
+  "image" : "https:\/\/hieutle2011.github.io\/images\/avatar.png",
+  "keywords" : [ "ssh, docker" ],
+  "mainEntityOfPage" : "https:\/\/hieutle2011.github.io\/post\/load-pubkey-invalid-format\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/hieutle2011.github.io",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/hieutle2011.github.io\/images\/avatar.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="archive" />
+<meta property="og:title" content="Load pubkey &#34;/root/.ssh/key.pem&#34;: invalid format" />
+<meta property="og:description" content="Last week, i tackled a task that required to ssh to remote server from a cron job. Identity is authenticated using PEM file. I can connect successfully from my local terminal with command.
+$ ssh -i ~/.ssh/key.pem root@host My PEM file format is as such
+-----BEGIN RSA PRIVATE KEY----- [actual key] -----END RSA PRIVATE KEY----- The problem happened when cron job (running within a docker container) try to ssh, there is Load pubkey &ldquo;/root/.">
 <meta property="og:image" content="https://hieutle2011.github.io/images/avatar.png" />
-<meta property="og:url" content="https://hieutle2011.github.io/tags/archive/" />
+<meta property="og:url" content="https://hieutle2011.github.io/post/load-pubkey-invalid-format/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Hieu&#39;s Blog" />
 
-  <meta name="twitter:title" content="archive" />
+  <meta name="twitter:title" content="Load pubkey &#34;/root/.ssh/key.pem&#34;: invalid format" />
+  <meta name="twitter:description" content="Last week, i tackled a task that required to ssh to remote server from a cron job. Identity is authenticated using PEM file. I can connect successfully from my local terminal with command.
+$ ssh -i …">
   <meta name="twitter:image" content="https://hieutle2011.github.io/images/avatar.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@manmoveon" />
@@ -191,43 +247,13 @@ if (!doNotTrack) {
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="tags-heading">
+            <div class="post-heading">
               
-                <h1>archive</h1>
-              
-              
-                <hr class="small">
+                <h1>Load pubkey &#34;/root/.ssh/key.pem&#34;: invalid format</h1>
               
               
               
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-
-    
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        
-        <div class="posts-list">
-          
-            <article class="post-preview">
-              <a href="https://hieutle2011.github.io/post/archive-command/">
-                <h2 class="post-title">Archive Command</h2>
-
-                
-                  <h3 class="post-subtitle">
-                    Quick note for compress files
-                  </h3>
-                
-              </a>
-
-              <p class="post-meta">
+              
                 <span class="post-meta">
   
   
@@ -237,7 +263,7 @@ if (!doNotTrack) {
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;2&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;254&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;282&nbsp;words
   
   
     
@@ -248,34 +274,146 @@ if (!doNotTrack) {
 </span>
 
 
-              </p>
-              <div class="post-entry">
-                
-                  There are many types of compress file, with each type we should have different command to interact with it. To find which archive type we are working with, use file command.
-$ file a.zip a.zip: Zip archive data, at least v1.0 to extract $ file b.tar b.tar: POSIX tar archive (GNU) $ file c.tar.gz c.tar.gz: gzip compressed data, last modified: Tue Aug 20 04:33:47 2019, from Unix Here are some most common types i&rsquo;ve been working with recently.
-                  <a href="https://hieutle2011.github.io/post/archive-command/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
               
-                <div class="blog-tags">
-                  
-                    <a href="https://hieutle2011.github.io/tags/archive/">archive</a>&nbsp;
-                  
-                    <a href="https://hieutle2011.github.io/tags/command/">command</a>&nbsp;
-                  
-                    <a href="https://hieutle2011.github.io/tags/linux/">linux</a>&nbsp;
-                  
-                </div>
-              
-
-            </article>
-          
+            </div>
+          </div>
         </div>
-        
       </div>
     </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Last week, i tackled a task that required to ssh to remote server from a cron job. Identity is authenticated using PEM file. I can connect successfully from my local terminal with command.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ ssh -i ~/.ssh/key.pem root@host
+</code></pre></div><p>My PEM file format is as such</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">-----BEGIN RSA PRIVATE KEY-----
+[actual key]
+-----END RSA PRIVATE KEY-----
+</code></pre></div><p>The problem happened when cron job (running within a docker container) try to ssh, there is <strong>Load pubkey &ldquo;/root/.ssh/key.pem&rdquo;: invalid format</strong> warning which prevented the job to finish.</p>
+<p>By docker-compose exec inside the docker, running ssh command let me logging into the remote machine, but still the <code>invalid format</code> warning.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">/app # ssh -i ~/.ssh/key.pem root@host
+load pubkey &#34;/root/.ssh/key.pem&#34;: invalid format
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-91-generic x86_64)
+
+Last login: Fri May 14 13:01:58 2021 from 172.1.1.1
+root@host:~#
+</code></pre></div><p>That leads me to a vital clue that the issue might lie in the ssh client used to connect to remote server.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback"># My local terminal
+$ ssh -V
+OpenSSH_8.1p1, LibreSSL 2.7.3
+
+# Inside docker
+/app # ssh -V
+OpenSSH_8.3p1, OpenSSL 1.1.1g  21 Apr 2020
+</code></pre></div><p>Actually i have no idea what&rsquo;s the difference between the two versions and after googling for a while, i found the solution: the new format. More information can be found <a href="https://github.com/git-for-windows/git/issues/2743#issuecomment-657847291">here</a>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">-----BEGIN OPENSSH PRIVATE KEY-----
+[actual key]
+-----END OPENSSH PRIVATE KEY——
+</code></pre></div><p>The way is to convert the old format to the new one my running this command (which replace the old file!)</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ ssh-keygen -p -f /root/.ssh/key.pem -N &#39;&#39; -P &#39;&#39;
+</code></pre></div><p>It might be a simple solution for a much more complicated issue, but i&rsquo;m happy with the result as it works!</p>
+<p><strong>Note</strong>: another solution to the same issue can be found <a href="https://joshtronic.com/2020/06/28/load-pubkey-invalid-format-when-using-ssh/">here</a></p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://hieutle2011.github.io/tags/ssh/">ssh</a>&nbsp;
+            
+              <a href="https://hieutle2011.github.io/tags/docker/">docker</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fhieutle2011.github.io%2fpost%2fload-pubkey-invalid-format%2f&amp;text=Load%20pubkey%20%22%2froot%2f.ssh%2fkey.pem%22%3a%20invalid%20format&amp;via=manmoveon" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhieutle2011.github.io%2fpost%2fload-pubkey-invalid-format%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fhieutle2011.github.io%2fpost%2fload-pubkey-invalid-format%2f&amp;title=Load%20pubkey%20%22%2froot%2f.ssh%2fkey.pem%22%3a%20invalid%20format" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhieutle2011.github.io%2fpost%2fload-pubkey-invalid-format%2f&amp;title=Load%20pubkey%20%22%2froot%2f.ssh%2fkey.pem%22%3a%20invalid%20format" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fhieutle2011.github.io%2fpost%2fload-pubkey-invalid-format%2f&amp;title=Load%20pubkey%20%22%2froot%2f.ssh%2fkey.pem%22%3a%20invalid%20format" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fhieutle2011.github.io%2fpost%2fload-pubkey-invalid-format%2f&amp;description=Load%20pubkey%20%22%2froot%2f.ssh%2fkey.pem%22%3a%20invalid%20format" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
   </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://hieutle2011.github.io/post/without-cs/" data-toggle="tooltip" data-placement="top" title="Without CS degree">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
 
       
 <footer>
